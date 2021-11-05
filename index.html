@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Foundry</title>
+        <script src="js/jquery.js"></script>
+        <script>
+            $(document).mousemove(function(event) {
+        var mousePosY = (event.pageY/$(window).height())*5;
+        var mousePosX = (event.pageX/$(window).width())*5;
+            $('#pageBg').css('background-position-y', -mousePosY +'%');
+            $('#pageBg').css('background-position-x', -mousePosX +'%');
+            })
+            </script>
+    </head>
+    <body style="margin:0;">
+        <div id="pageBg" style="background-image: url('images/texturefabrik_dust-01.png');
+        background-position:center;
+        background-size:110vw;">
+            <div style="height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;">
+                <img id="logo" data-tilt src="images/FoundryTextTransparent.png" style="width: 30vw; margin: 0; position:relative; bottom:20vh;";/></span>
+            </div>
+        </div>
+        <script src="js/tilt.js-master/src/tilt.jquery.js"></script>
+    </body>
+</html>

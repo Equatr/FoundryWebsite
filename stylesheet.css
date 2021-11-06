@@ -28,7 +28,7 @@ body{
 }
 
 #mc_embed_signup{
-    font-size: 30px; margin-bottom: 1em;
+    font-size: 30px; margin-bottom: 0.5em;
 }
 
 #mc-embedded-subscribe{
@@ -65,9 +65,9 @@ body{
 
 .social{
     width:35px;
-        vertical-align: middle;
-        padding:6px;
-        fill:white;
+    vertical-align: middle;
+    padding:6px;
+    fill:white;
         
 }
 

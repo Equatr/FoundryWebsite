@@ -1,0 +1,77 @@
+body{
+    margin:0; 
+    height:100%;
+}
+
+#pageBg{
+    background-image: url('images/texturefabrik_dust-01.png');
+    background-position:center;
+    background-size:cover; height:100%
+}
+
+.center_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.center_inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    max-width: 500px; margin: 0; margin-bottom: 3em;
+}
+
+#mc_embed_signup{
+    font-size: 30px; margin-bottom: 1em;
+}
+
+#mc-embedded-subscribe{
+    font-family: Acherus Grotesque Regular, sans-serif; 
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+#mc-embedded-subscribe:hover{
+    background-color: gray;
+    fill: gray;
+}
+
+#mc_embed_signup_scroll{
+    text-align: center; color:white; padding:1vw;
+}
+
+#mce-FNAME, #mce-EMAIL{
+     margin-top: 1vw; width:20em  ; height:2em; font-family: Acherus Grotesque Regular, sans-serif;
+}
+
+#mce-EMAIL{
+    margin-bottom: 1vw;
+}
+
+#socials{
+    text-align: center;
+}
+
+.social{
+    width:35px;
+     vertical-align: middle;
+     padding:6px;
+     fill:white;
+}
+
+
+a :hover{
+    fill: lightgray;
+}

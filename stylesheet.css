@@ -69,8 +69,12 @@ body{
      vertical-align: middle;
      padding:6px;
      fill:white;
+     
 }
 
+a{
+    text-decoration: none;
+}
 
 a :hover{
     fill: lightgray;

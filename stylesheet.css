@@ -23,13 +23,15 @@ body{
     justify-content: center;
 }
 
+/*MOBILE*/
 #logo{
-    max-width: 500px; margin: 0; margin-bottom: 3em;
+    max-width: 300px; margin: 0; margin-bottom: 3em;
 }
 
+/*DESKTOP*/
 @media only screen and (min-width: 768px){
     #logo{
-        max-width: 300px; margin: 0; margin-bottom: 3em;
+        max-width: 500px; margin: 0; margin-bottom: 3em;
     }
 }
 

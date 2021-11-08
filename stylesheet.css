@@ -27,6 +27,12 @@ body{
     max-width: 500px; margin: 0; margin-bottom: 3em;
 }
 
+@media only screen and (min-width: 768px){
+    #logo{
+        max-width: 300px; margin: 0; margin-bottom: 3em;
+    }
+}
+
 #mc_embed_signup{
     font-size: 30px;
 }
